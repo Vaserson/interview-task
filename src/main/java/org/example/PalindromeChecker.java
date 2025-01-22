@@ -5,9 +5,8 @@ public class PalindromeChecker {
     // Method to check if a string is a palindrome
     public boolean isPalindrome(String input) {
         String reversed = "";
-        for (int i = input.length() - 1; i >= 0; i--) {
-            reversed += input.charAt(i);
-        }
+
+        //TODO make a reversed string of input string
 
         if (reversed.equalsIgnoreCase(input)) {
             return true;
