@@ -18,10 +18,10 @@ public class PalindromeChecker {
     public static void main(String[] args) {
         PalindromeChecker checker = new PalindromeChecker();
 
-        System.out.println(checker.isPalindrome("Level")); // Should return true
-        System.out.println(checker.isPalindrome("hello")); // Should return false
-        System.out.println(checker.isPalindrome(null));    // Should return false
-        System.out.println(checker.isPalindrome(""));      // Should return false
-        System.out.println(checker.isPalindrome("A man a plan a canal Panama")); // Should return true
+/*  EXAMPLE STRINGS
+        "Level"
+        "hello"
+        "A man a plan a canal Panama"
+*/
     }
 }
